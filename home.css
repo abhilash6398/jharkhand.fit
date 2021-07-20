@@ -77,3 +77,20 @@ input[type=submit] {
 input[type=submit]:hover {
   opacity: 0.8;
 }
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: x-large;
+  color: white;
+}
+
+span.a {
+  display: inline;
+}
+
+span.b {
+  display: inline;
+}
